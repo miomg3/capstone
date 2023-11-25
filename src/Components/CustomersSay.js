@@ -1,7 +1,7 @@
 function CustomerSay() {
-    return (<></>
-    );
-  }
-  
-  export default CustomerSay;
-  
+  return (
+    <></>
+  );
+}
+
+export default CustomerSay;

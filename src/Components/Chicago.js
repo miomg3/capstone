@@ -1,7 +1,7 @@
 function Chicago() {
-    return (<></>
-    );
-  }
-  
-  export default Chicago;
-  
+  return (
+    <> </>
+  );
+}
+
+export default Chicago;

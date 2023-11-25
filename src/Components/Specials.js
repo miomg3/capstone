@@ -1,7 +1,6 @@
 function Specials() {
-    return (<></>
-    );
-  }
-  
-  export default Specials;
-  
+  return (<></>
+  );
+}
+
+export default Specials;

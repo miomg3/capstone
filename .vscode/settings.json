@@ -1,0 +1,12 @@
+{
+    "workbench.settings.openDefaultSettings": false,
+    "editor.fontLigatures": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 2,
+}
