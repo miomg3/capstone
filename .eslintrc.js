@@ -11,6 +11,7 @@ module.exports = {
 		{
 			env: {
 				node: true,
+				jest: true,
 			},
 			files: [
 				'.eslintrc.{js,cjs}',
@@ -19,6 +20,14 @@ module.exports = {
 				sourceType: 'script',
 			},
 		},
+		Object.assign(
+			{
+				files: ['**/*.test.js'],
+				env: { jest: true },
+				plugins: ['jest'],
+			},
+			require('eslint-plugin-jest').configs.recommended
+		)
 	],
 	parserOptions: {
 		ecmaVersion: 'latest',
@@ -26,6 +35,7 @@ module.exports = {
 	},
 	plugins: [
 		'react',
+		'jest',
 	],
 	rules: {
 		'react/prop-types': 1,
